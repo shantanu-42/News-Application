@@ -1,4 +1,4 @@
-const API_KEY = '/*--paste your api key from newsapi.org-->*';
+const API_KEY = "a544129d2efc4038bdeca6220bfcd420";
 const BASE_URL = 'https://newsapi.org/v2';
 
 export async function getNews() {
@@ -26,3 +26,4 @@ export async function getSearchNews(query) {
         return { articles: [] };
     }
 }
+
